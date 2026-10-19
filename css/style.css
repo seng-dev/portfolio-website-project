@@ -6,8 +6,11 @@
 
 /* header css */
 header {
-  background: darkblue;
+  background: aqua;
   color: #fff;
+}
+.logo-wrapper img {
+  width: 30%;
 }
 .navbar {
   display: flex;
