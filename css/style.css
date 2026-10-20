@@ -6,11 +6,10 @@
 
 /* header css */
 header {
-  background: aqua;
-  color: #fff;
+  background: #073365;
 }
 .logo-wrapper img {
-  width: 30%;
+  width: 8%;
 }
 .navbar {
   display: flex;
@@ -53,4 +52,15 @@ header {
   .nav-links.open {
     display: flex;
   } /* shown when toggled */
+}
+.nav-links li a {
+  color: tomato;
+  text-decoration: none;
+}
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+/* body css*/
+.home-page{
+  
 }
