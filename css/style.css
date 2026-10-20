@@ -6,10 +6,18 @@
 
 /* header css */
 header {
-  background: #073365;
+  background: #0a1020;
 }
 .logo-wrapper img {
   width: 8%;
+}
+.logo-wrapper {
+  display: flex;
+  gap: 2px;
+  color: #69a9e6;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  position: relative;
 }
 .navbar {
   display: flex;
@@ -45,22 +53,23 @@ header {
     top: 100%;
     left: 0;
     right: 0;
-    background: #fff;
+    background: #0a1020;
     padding: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   .nav-links.open {
     display: flex;
   } /* shown when toggled */
+  button {
+    color: #fff;
+  }
 }
 .nav-links li a {
-  color: tomato;
+  color: #fafafa;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .nav-links li a:hover {
   text-decoration: underline;
 }
 /* body css*/
-.home-page{
-  
-}
