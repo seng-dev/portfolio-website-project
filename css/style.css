@@ -8,6 +8,9 @@
 header {
   background: #0a1020;
 }
+.heading-1 {
+  font-size: 25px;
+}
 .logo-wrapper img {
   width: 8%;
 }
@@ -119,11 +122,30 @@ header {
   .aboutpage-wrapper {
     width: 400px;
   }
+  .heading-1 {
+    font-size: 40px;
+  }
 }
 @media (min-width: 760px) {
   .aboutpage-wrapper {
     display: flex;
     justify-content: space-between;
-    width: 730px;
+    width: 720px;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  .about-me {
+    padding-top: 50px;
+  }
+  .information-wrapper {
+    margin-top: 30px;
+  }
+  .image-wrapper {
+    margin-right: 30px;
+  }
+  .image-wrapper {
+    width: 300px;
   }
 }
