@@ -3,6 +3,9 @@
   padding: 0;
   max-width: 100%;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /* header css */
 header {
@@ -22,7 +25,7 @@ header {
   display: flex;
   gap: 2px;
   color: #69a9e6;
-  font-family: Arial, Helvetica, sans-serif;
+
   align-items: center;
   position: relative;
 }
@@ -74,7 +77,6 @@ header {
 .nav-links li a {
   color: #fafafa;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .nav-links li a:hover {
   text-decoration: underline;
@@ -92,16 +94,16 @@ header {
   min-height: 100vh;
   text-align: center;
   color: #ff6b00;
-  font-family: Arial, Helvetica, sans-serif;
+
   font-size: 25px;
   margin-bottom: 40px;
 }
+/* about page wrapper */
 /* about page */
 .aboutpage-wrapper {
   margin: 0 auto;
   width: 300px;
   align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .boxed {
   border: 2px solid #fafafa;
@@ -155,24 +157,21 @@ header {
 /* resume at about page */
 .resume-heading {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+
   font-size: 30px;
   margin: 40px auto;
 }
 .resume-paragraph-1 {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+
   margin: 25px auto;
 }
 .heading-3 {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 20px auto;
 }
-/* @media (min-width: 400px) {
-  .aboutpage-wrapper {
-    width: 400px;
-  }
-  .heading-1 {
-    font-size: 40px;
-  }
-} */
+.heading-4 {
+  margin: 15px 10px;
+}
+.resume-paragraph-2 {
+  margin: 25px 15px;
+}
