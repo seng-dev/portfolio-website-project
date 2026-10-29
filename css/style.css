@@ -163,7 +163,6 @@ header {
 }
 .resume-paragraph-1 {
   text-align: center;
-
   margin: 25px auto;
 }
 .heading-3 {
@@ -174,4 +173,15 @@ header {
 }
 .resume-paragraph-2 {
   margin: 25px 15px;
+}
+@media (min-width: 980px) {
+  .resume-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    margin: 0 auto;
+  }
+  .right-container {
+    margin-left: 200px;
+  }
 }
