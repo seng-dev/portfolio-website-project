@@ -165,14 +165,49 @@ header {
   text-align: center;
   margin: 25px auto;
 }
-.heading-3 {
-  margin: 20px auto;
+.pdf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
 }
-.heading-4 {
-  margin: 15px 10px;
+/* Resume Icon */
+.resume-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 20px;
+  border-radius: 8px;
+
+  background-color: #007bff;
+  color: white;
+
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+
+  transition: all 0.3s ease;
 }
-.resume-paragraph-2 {
-  margin: 25px 15px;
+
+/* Icon size */
+.resume-icon i {
+  font-size: clamp(20px, 3vw, 28px);
+}
+
+/* Hover effect */
+.resume-icon:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  .resume-icon {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
 }
 @media (min-width: 980px) {
   .resume-wrapper {
@@ -183,5 +218,160 @@ header {
   }
   .right-container {
     margin-left: 200px;
+  }
+}
+/* service section */
+/* Features Container */
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Individual Feature */
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+
+  padding: 12px 16px;
+  border-radius: 10px;
+
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Icon Styling */
+.feature i {
+  font-size: clamp(22px, 3vw, 32px);
+  color: #007bff;
+
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.feature:hover {
+  color: #007bff;
+  transform: translateY(-4px);
+}
+
+.feature:hover i {
+  transform: scale(1.15);
+}
+
+/* Tablet Screens */
+@media (max-width: 768px) {
+  .features-container {
+    gap: 15px;
+  }
+
+  .feature {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 480px) {
+  .features-container {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .feature {
+    flex: 1 1 140px;
+    justify-content: flex-start;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+/* Features Container */
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Individual Feature */
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+
+  padding: 12px 16px;
+  border-radius: 10px;
+
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Icon Styling */
+.feature i {
+  font-size: clamp(22px, 3vw, 32px);
+  color: #007bff;
+
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.feature:hover {
+  color: #007bff;
+  transform: translateY(-4px);
+}
+
+.feature:hover i {
+  transform: scale(1.15);
+}
+
+/* Tablet Screens */
+@media (max-width: 768px) {
+  .features-container {
+    gap: 15px;
+  }
+
+  .feature {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 480px) {
+  .features-container {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .feature {
+    flex: 1 1 140px;
+    justify-content: flex-start;
+    font-size: 14px;
+    padding: 10px;
   }
 }
