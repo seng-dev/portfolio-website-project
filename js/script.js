@@ -30,11 +30,7 @@
   });
 
   // Typing effect
-  var words = [
-      "Frontend Developer",
-      "Web Designer",
-      "Software Engineering Student",
-    ],
+  var words = ["Web Developer", "Web Designer", "Software Engineering Student"],
     wi = 0,
     ci = 0,
     del = false,
